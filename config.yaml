@@ -46,7 +46,7 @@ site:
 
 repos:
   limit: 0
-  show_forks: false
+  show_forks: true
   sort:
     key: "name"
     descending: true
