@@ -37,22 +37,22 @@
 
 site:
   version: "v1"
-  title: "Hi, I'm GITHUB_USERNAME"
-  description: "This is a collection of my awesome GitHub projects."
+  title: "Hi, I'm RepoGallery"
+  description: "This is a dark theme."
   show_picture: true
-  picture_path: ""
-  theme: "light"
-  site_icon: "assets/doc_img/RepoGallery-light.png"
+  picture_path: "assets/doc_img/RepoGallery-dark.png"
+  theme: "dark"
+  site_icon: "assets/doc_img/RepoGallery-dark.png"
 
 repos:
   limit: 0
   show_forks: false
   sort:
-    key: "stars"
+    key: "name"
     descending: true
   use_custom_image: true
   random_image: true
-  random_image_theme: "Minimal"
+  random_image_theme: "Cyberpunk"
   exclude:
     - "GITHUB_USERNAME.github.io"
     - "GITHUB_USERNAME"
